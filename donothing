@@ -1,0 +1,12 @@
+import time
+
+print("welcome to do nothing simulator!")
+
+def donothing():
+  starttime=time.time()
+  while True:
+    endtime=time.time()
+    nothingtime=endtime-starttime
+    print(f"you have been doing nothing for {nothingtime} seconds! yaaaaaaaaay!")
+    time.sleep(5.7328958767)
+donothing()
